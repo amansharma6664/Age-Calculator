@@ -1,0 +1,98 @@
+/* Body Styles - Colorful Background for the Whole Page */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff7f50, #ff1493, #8a2be2); /* Gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+  }
+  
+  /* Container for the age calculator */
+  .age-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6); /* Slight dark overlay for contrast */
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Heading Styles */
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Input Container Styling */
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  /* Input Field Styling */
+  .input-field {
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+  }
+  
+  /* Focus Effect for Input Field */
+  .input-field:focus {
+    outline: none;
+    box-shadow: 0 0 8px 2px rgba(255, 20, 147, 0.7);
+    background-color: #ff69b4; /* Light pink when focused */
+  }
+  
+  /* Button Styling */
+  .calculate-button {
+    padding: 15px 30px;
+    background-color: #ff1493; /* Bright pink button */
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Button Hover Effect */
+  .calculate-button:hover {
+    background-color: #ff69b4; /* Lighter pink on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  /* Error Message Styling */
+  .error-message {
+    color: #ff4500; /* Bright red for errors */
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Result Styling */
+  .result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #32cd32; /* Green color for the result */
+    font-weight: bold;
+    text-align: center;
+  }
+  
